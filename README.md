@@ -23,6 +23,15 @@ To install, simply invoke:
 
     # make install
 
+Raspberry pi 2 installation
+---------------------------
+
+    $ sudo apt-get install automake libasound2-dev
+    $ ./autogen.sh              # probably only once for ever
+    $ ./configure               # with or without options
+    $ make -j 4                 # with or without options
+    $ sudo make install
+
 Usage
 -----
 
